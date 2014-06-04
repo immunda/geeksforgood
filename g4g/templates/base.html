@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>Theme Template for Bootstrap</title>
+
+    <!-- Font CSS -->
+    <link href='http://fonts.googleapis.com/css?family=Lekton:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+
+    <!-- Bootstrap theme -->
+    <link href="{{ url_for('static', filename='css/bootstrap-theme.min.css') }}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body role="document">
+
+    <div class="header">
+      <a href="/"><img class="logo" src="{{ url_for('static', filename='images/geeksforgoodlogo.png') }}" /></a>
+    </div>
+
+    <div class="tagline">
+      <p class="tagline-header">Volunteering opportunities for people with tech skills</p>
+    </div>
+
+<div class="introduction">
+
+  <div class="container">
+
+    <div class="col-sm-7">
+      <h3>Be a good geek: Online and offline volunteering</h3>
+      <p>Description of the volunteering task required. This is just brief but gives a good idea of what’s required of the volunteer It will be ablout as long as this and will entice people to step forward and volunteer. Description of the volunteering task required. This is just brief but gives a good idea of what’s required of the volunteer It will be ablout as long as this and will entice people to step forward and volunteer. 
+      </p>
+      <button type="button" class="btn btn-g4g">Sign up for emails</button>       
+      <button type="button" class="btn btn-g4g">Follow us on Twitter</button>
+   </div>
+
+   <div class="col-sm-1"></div>
+
+    <div class="col-sm-4">
+      <h3>Post an opportunity</h3>
+      <p>Description of the volunteering task required. This is just brief but gives a good idea of what’s required of the volunteer It will be ablout as long as this and will entice people to step forward and volunteer. 
+      </p>
+      <button type="button" class="btn btn-g4g">Post an opportunity</button>
+   </div>
+
+  </div> <!-- container -->
+
+</div> <!-- introduction -->
+
+<div class="opportunities offline">
+
+  <div class="container">
+
+    <h1 class="heart-header">Offline volunteering opportunities</h1>
+
+    <p>lolol lolol lorem ipsum</p>
+
+    <div class="col-sm-4">
+      <div class="opportunity-card">
+        <img src="{{ url_for('static', filename='images/greyheart.png') }}" alt="...">
+        <div class="caption">
+          <h3>Volunteering opportunity title</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a dictum ipsum. Quisque auctor tempus nunc ut sagittis. Ut eget augue eget orci porta faucibus ut nec ipsum. Proin vel varius tellus, vel eleifend justo. Fusce ac ipsum quam. Proin et lacus ac elit dignissim condimentum. </p>
+          <p><a href="#" class="btn btn-g4g bottom" role="button">Button</a> 
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="opportunity-card">
+        <img src="{{ url_for('static', filename='images/greyheart.png') }}" alt="...">
+        <div class="caption">
+          <h3>Volunteering opportunity title</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscsum. Proin vel varius tellus, vel eleifend justo. Fusce ac ipsum quam. Proin et lacus ac elit dignissim condimentum. </p>
+          <p><a href="#" class="btn btn-g4g bottom" role="button">Button</a> 
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="opportunity-card">
+        <img src="{{ url_for('static', filename='images/greyheart.png') }}" alt="...">
+        <div class="caption">
+          <h3>Volunteering opportunity title</h3>
+          <p>Lorem ipsum dolor sit amet, consecte vel eleifend justo. Fusce ac ipsum quam. Proin et lacus ac elit dignissim condimentum. </p>
+          <p><a href="#" class="btn btn-g4g bottom" role="button">Button</a> 
+        </div>
+      </div>
+    </div>
+
+  </div> <!-- container -->
+
+</div> <!-- opportunities -->
+
+<div class="opportunities online">
+
+  <div class="container">
+
+    <h1 class="heart-header">Online volunteering opportunities</h1>
+
+    <p>lolol lolol lorem ipsum</p>
+
+    <div class="col-sm-4">
+      <div class="opportunity-card">
+        <img src="{{ url_for('static', filename='images/greyheart.png') }}" alt="...">
+        <div class="caption">
+          <h3>Volunteering opportunity title</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a dictum ipsum. Quisque auctor tempus nunc ut sagittis. Ut eget augue eget orci porta faucibus ut nec ipsum. Proin vel varius tellus, vel eleifend justo. Fusce ac ipsum quam. Proin et lacus ac elit dignissim condimentum. </p>
+          <p><a href="#" class="btn btn-g4g bottom" role="button">Button</a> 
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="opportunity-card">
+        <img class="heart" src="{{ url_for('static', filename='images/greyheart.png') }}" alt="Opportunity">
+        <div class="caption">
+          <h3>Volunteering opportunity title</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscsum. Proin vel varius tellus, vel eleifend justo. Fusce ac ipsum quam. Proin et lacus ac elit dignissim condimentum. </p>
+          <p class="opportunity-detail">wfokw f wefpo wefo wepok wok wefpokwef</p>
+        </div>
+        <p><a href="#" class="btn btn-g4g bottom" role="button">Button</a> 
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="opportunity-card">
+        <img src="{{ url_for('static', filename='images/greyheart.png') }}" alt="...">
+        <div class="caption">
+          <h3>Volunteering opportunity title</h3>
+          <p>Lorem ipsum dolor sit amet, consecte vel eleifend justo. Fusce ac ipsum quam. Proin et lacus ac elit dignissim condimentum. </p>
+          <p><a href="#" class="btn btn-g4g bottom" role="button">Button</a> 
+        </div>
+      </div>
+    </div>
+
+  </div> <!-- container -->
+
+</div> <!-- opportunities -->
+
+
+  </body>
+</html>

@@ -1,0 +1,116 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+}
+
+body {
+    font-family: 'Lekton', sans-serif;
+    color: #444;
+}
+
+h1, h2, h3, h4 {
+    font-weight: bold;
+}
+
+h1 { 
+    font-size: 1.8em;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.header {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    background: #ffdd00;
+    text-align: center;
+}
+
+.tagline {
+    text-align: center;
+    padding-top: 1.8em;
+    padding-bottom: 1.5em;
+}
+
+.tagline-header {
+    font-family: 'Lekton', sans-serif;
+    margin: 0;
+    color: #444;
+    font-size: 1.8em;
+}
+
+.introduction {
+    background-color: #f0efe2;
+    padding-top: 1.8em;
+    padding-bottom: 2.5em;
+}
+
+.opportunities {
+    padding-top: 1.5em;
+    padding-bottom: 3em;
+    text-align: center;
+}
+
+.opportunity-card {
+    font-size: 0.9em;
+    padding: 1.5em 1.5em;
+    position: relative;
+    background-color: white;
+    height: 30em;
+}
+
+.opportunity-detail {
+    color: #777;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 1.5em;
+    transform: translate3d(-50%, 0, 0);
+    left: 50%;
+}
+
+.caption {
+    text-align: left;
+}
+
+.offline {
+    background-color: #dfded1;
+}
+
+.online {
+    background-color: #f0efe2;
+}
+
+.heart-header {
+    background-image: url('/static/images/whiteheart.png'), url('/static/images/whiteheart.png');
+    background-repeat: no-repeat;
+    background-position: 0 0, right 0;
+    display: inline-block;
+    padding: 0 1.6em;
+}
+
+.btn-g4g,
+.btn-g4g:active,
+.btn-g4g:hover {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #d90000;
+  border-radius: 100px;
+}
+
+.btn-g4g:hover {
+    background-color: #b70000;
+}
+
